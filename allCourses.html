@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Courses</title>
+    <link rel="stylesheet" href="explore.css" />
+    <link rel="stylesheet" href="allCourses.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div>
+        <div class="logo">
+          <img
+            class="logoImg"
+            src="https://image.flaticon.com/icons/png/128/174/174857.png"
+          />
+          <span>LEARNING</span>
+        </div>
+        <div class="searchBar">
+          <div class="searchBar1">
+            <select id="navSelectSearch">
+              <option value="Learning">Learning</option>
+              <option value="Jobs">Jobs</option>
+              <option value="People">People</option>
+            </select>
+            <span class="downArrow">▼</span>
+          </div>
+          <div class="searchBar2">
+            <span class="navSelect learningSelect">
+              <input
+                type="text"
+                placeholder="Search skills, subjects, or software"
+              />
+            </span>
+            <span class="navSelect personSelect">
+              <input
+                class="firstName firstInput"
+                type="text"
+                placeholder="Firstname"
+              />
+              <input class="lastname" type="text" placeholder="Lastname" />
+            </span>
+            <span class="navSelect jobSelect">
+              <input
+                class="jobSearch firstInput"
+                type="text"
+                placeholder="Search job titles or companies"
+              />
+              <input class="city" type="text" placeholder="Bangalore" />
+            </span>
+          </div>
+          <div>
+            <img
+              id="search"
+              src="https://cdn4.iconfinder.com/data/icons/popular-ui/24/04_ui_user_interface_search_magnifying_glass_web_ios-512.png"
+            />
+          </div>
+        </div>
+        <img
+          class="profilePic"
+          src="https://static-exp1.licdn.com/sc/h/244xhbkr7g40x6bsu4gi6q4ry"
+        />
+        <div class="signInUpButton">
+          <button id="freeTrail">Start free trail</button>
+          <button id="signIn">Sign in</button>
+        </div>
+      </div>
+    </div>
+    <div class="sortFunc preMain">
+      <ul>
+        <li>
+          <span id="sortBY">Sort By ▼</span>
+        </li>
+        <li>
+          <span id="sortByLevel">Level ▼</span>
+        </li>
+        <li>
+          <span id="sortByType">Type ▼</span>
+        </li>
+        <li>
+          <span id="sortByTime">Time to complete ▼</span>
+        </li>
+        <li>
+          <span id="sortBysoftware">Software ▼</span>
+        </li>
+      </ul>
+    </div>
+    <div class="solution preMain">
+      <ul>
+        <li>
+          <span id="solFor">Solution for:</span>
+        </li>
+        <li>
+          <span id="business">Business</span>
+        </li>
+        <li>
+          <span id="highEdu">Higher Education</span>
+        </li>
+        <li>
+          <span id="govt">Government</span>
+        </li>
+        <li>
+          <span id="buyForTeam">Buy for my team</span>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="./navbar.js"></script>
+</html>
