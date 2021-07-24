@@ -1,0 +1,31 @@
+.sortFunc {
+  max-width: 1230px;
+  margin: auto;
+  margin-top: 70px;
+}
+.preMain ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.preMain li {
+  list-style: none;
+  padding: 4px 12px;
+  border-radius: 20px;
+  color: rgba(102, 102, 102, 0.918);
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+.sortFunc li {
+  border: 1px solid rgba(102, 102, 102, 0.472);
+  margin-right: 5px;
+}
+.solution {
+  background-color: #f3f6f8;
+}
+.solution ul {
+  justify-content: flex-end;
+  max-width: 1165px;
+  margin: auto;
+  padding: 4px 0;
+}
