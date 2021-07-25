@@ -267,11 +267,15 @@
       border: none;
       margin-left: 37%;
     }
+   
     #overLay {
       position: absolute;
       top: 0%;
       left: 0%;
-      background-color: rgb(56, 56, 56);
+
+      background-size: cover;
+      background-image: linear-gradient(to right, #0a66c2c7, #02328094),
+      url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1131714824%2F960x0.jpg%3Ffit%3Dscale");
       width: 100vw;
       height: 100%;
       z-index: 10;
@@ -279,14 +283,7 @@
       display: none;
     }
     #overLayGif {
-      /* margin: 40px 20vw; */
-      margin: auto;
-      width: 100%;
-      height: 100vh;
-      background-image: pink;
-     background-size: cover;
-     background-image: linear-gradient(to right, #0a66c2c7, #02328094),
-    url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1131714824%2F960x0.jpg%3Ffit%3Dscale");
+      margin: 40px 20vw;
     }
 .footBar {
   display: flex;
@@ -412,13 +409,15 @@
             </div>
         </div>
     </div>
+
     <div id="overLay">
-      <img class="img-giff"
+      <img 
         id="overLayGif"
         src="https://cdn.dribbble.com/users/447957/screenshots/6899626/payment-animation.gif"
         alt="funny GIF"
       />
     </div>
+
     <div class="footBar">
       <div><img src="./Screenshot_2.jpg"> </div>
       <div>&copy;2021 </div>
@@ -466,7 +465,7 @@
 
   function videopage(e) {
     e.preventDefault()
-    setTimeout(() =>{fullContent.style.display='none',overLay.style.display='unset'}, 1000);
+    setTimeout(() =>{fullContent.style.display='none',overLay.style.display='unset'}, 2000);
     setTimeout(() => (window.location.href = "congrats.html"), 3000);
   }
 </script>
