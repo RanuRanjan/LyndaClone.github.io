@@ -393,12 +393,10 @@ body {
   margin-top: 100px;
   margin-bottom: 30px;
 }
-.footer {
+.footBar {
   margin-top: 100px;
   max-width: 1200px;
   margin: auto;
-}
-.footBar {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
