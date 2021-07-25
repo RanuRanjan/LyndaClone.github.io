@@ -279,7 +279,14 @@
       display: none;
     }
     #overLayGif {
-      margin: 40px 20vw;
+      /* margin: 40px 20vw; */
+      margin: auto;
+      width: 100%;
+      height: 100vh;
+      background-image: pink;
+     background-size: cover;
+     background-image: linear-gradient(to right, #0a66c2c7, #02328094),
+    url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1131714824%2F960x0.jpg%3Ffit%3Dscale");
     }
 .footBar {
   display: flex;
@@ -296,6 +303,7 @@
 .footBar img {
   filter: grayscale(100%);
 }
+
   </style>
 
   <body style="background-color: #f3f2ef !important">
@@ -405,9 +413,9 @@
         </div>
     </div>
     <div id="overLay">
-      <img
+      <img class="img-giff"
         id="overLayGif"
-        src="https://cdn.dribbble.com/users/692322/screenshots/2907022/shot-10.gif"
+        src="https://cdn.dribbble.com/users/447957/screenshots/6899626/payment-animation.gif"
         alt="funny GIF"
       />
     </div>
