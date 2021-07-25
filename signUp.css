@@ -93,16 +93,20 @@ input {
 }
 
 .footBar {
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12.5px;
   color: #666;
-  margin-top: 20px !important;
-  max-width: 1200px;
   margin: auto;
+  margin-top: 100px;
 }
 .footBar img {
   filter: grayscale(100%);
+}
+.footBar div {
+  margin-right: 5px;
 }
