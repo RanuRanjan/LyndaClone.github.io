@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
     <!--buy for team page-->
+    <link rel="shortcut icon" href="./linkedin.png" type="image/x-icon" />
+
 <style>
-    #body_contact{
+    body{
     font-family:  Source Sans Pro, Helvetica, Arial, sans-serif, Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3,  Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai,  Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular',  Heiti SC, Microsoft Yahei, Segoe UI;
     line-height:25px;
+    margin: 0;
     }
     @media only screen and (min-width: 1025px){
     #contact_header{
@@ -21,8 +24,6 @@
         margin-right: 10%;
         padding-top: 5px;
         visibility: visible !important;
-        
-        
     }
 }
 #contact_support{
@@ -33,11 +34,11 @@
     }
    #contact_logo{
        float: left;
-       height: 80px;
+       height: 21px;
        width:100px;
        margin-left: 15%;
        padding: 8px 0px 0px 14px;
-       margin-top: 1.75%;
+       margin-top: 2.1%;
    }
    #contact_logo_text{
     float: left;
@@ -52,8 +53,10 @@
 
    }
    #contact_line{
+       margin-top: 0px;
        width:100%;
-       border: 1px solid #0073b1;
+       border: none;
+       border-bottom: 2px solid #0073b1;
    }
    #contact_text_header{
     line-height: 24px;
@@ -180,13 +183,14 @@
 
 </style>
 
-    <div id="contact_left_right"></div>
-    <body id="body_contact">
+    <!-- <div id="contact_left_right"></div> -->
+    <body>
     <div id="contact_nav_bar">
         <div id="contact_header">
                 <div id="contact_support">Get support</div>
         </div>
         <!--svg code file for logo-->
+        <a href="./index.html">
                 <svg id="contact_logo">
                 
                     <polygon style="fill:#0077B5;" points="0 3.1 3.2 3.1 3.2 14.9 9.2 14.9 9.2 17.9 0 17.9"></polygon>
@@ -208,7 +212,7 @@
                     <path style="fill:#0077B5;"
                         d="m81.3 0h-17.9c-0.8 0-1.5 0.7-1.6 1.5v18c0 0.8 0.7 1.5 1.6 1.5h17.9c0.8 0 1.5-0.7 1.6-1.5v-18c0-0.8-0.7-1.5-1.6-1.5zm-13.2 17.9h-3.1v-10h3.1v10zm-1.6-11.4c-1 0-1.8-0.8-1.8-1.8s0.8-1.8 1.8-1.8 1.8 0.8 1.8 1.8-0.8 1.8-1.8 1.8zm13.3 11.4h-3.1v-4.9c0-1.2 0-2.7-1.6-2.7s-1.9 1.3-1.9 2.6v5h-3.1v-10h3v1.4c0.6-1 1.7-1.7 2.9-1.6 3.2 0 3.7 2.1 3.7 4.8l0.1 5.4z">
                     </path>
-                </svg>
+                </svg></a>
                 <div id="contact_logo_text">Learning</div>
             
             <hr id="contact_line"></hr>

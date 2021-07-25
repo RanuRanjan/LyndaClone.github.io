@@ -1,6 +1,49 @@
+// Mahi code --> show more func + Redirection to a page
+let show_more_btn = document.querySelector('#show_more_btn');
+let moreText = document.getElementById("more");
+
+show_more_btn?.addEventListener('click', myFunction);
+function myFunction(e) {
+    // e.preventDefault();
+    console.log('jjj');
+    if (show_more_btn.textContent == "Show more") {
+        show_more_btn.textContent = "Show less";
+        moreText.style.display = "unset";
+    } else {
+        show_more_btn.textContent = "Show more";
+        moreText.style.display = "none";
+    }
+}
+
+// Redirection
+let logo = document.querySelector(".logo");
+logo?.addEventListener('click', () => window.location.href = "./index.html");
+
+let hgh_lte1 = document.querySelectorAll('.hgh_lte1');
+let freeTrail = document.getElementById("freeTrail");
+hgh_lte1?.forEach((el) => el.addEventListener('click', () => window.location.href = "./allCourses.html"));
+freeTrail?.addEventListener('click', () => window.location.href = "./productsmahi1.html");
+
+
+let signIn = document.getElementById("signIn");
+signIn?.addEventListener('click', () => window.location.href = "./signUp.html");
+
+let coursesRed = document.getElementById("coursesRed");
+coursesRed?.addEventListener('click', () => window.location.href = "./allCourses.html");
+
+let buyForTeam = document.querySelectorAll(".hero__button-muted");
+buyForTeam?.forEach((el) => el?.addEventListener('click', () => window.location.href = "./contact.html"));
+
+
+
+let startFreeMonth = document.querySelector(".hero__button-primary");
+startFreeMonth?.addEventListener('click', () => window.location.href = "./productsmahi1.html");
+
+
+
 
 //NavBar
-/*let searchButton = document.querySelector('.searchButton');
+let searchButton = document.querySelector('.searchButton');
 let navSelectSearch = document.querySelector('#navSelectSearch');
 let navSelect = document.querySelectorAll('.navSelect');
 
@@ -18,7 +61,7 @@ function navInput_Search() {
     // console.log(navSelectSearch.value)
 }
 navSelectSearch.addEventListener('click', navInput_Search);
-navInput_Search();*/
+navInput_Search();
 
 
 //Explore courses Tabs
@@ -29,7 +72,7 @@ let hero_section = document.querySelector('.hero_section');
 let nav = document.querySelector('.nav');
 
 
-tabs_list.addEventListener('click', function tabs_list_selector(e) {
+tabs_list?.addEventListener('click', function tabs_list_selector(e) {
 
     if (e.target.classList.contains('tab-button')) {
 
@@ -58,12 +101,6 @@ window.addEventListener('scroll', () => {
         nav.style.boxShadow = 'none';
 });
 
-//Trending Courses 
-// let courses2 = document.querySelector('.courses2');
-// let courses3 = document.querySelector('.courses3');
-// let courses4 = document.querySelector('.courses4');
-// let courses5 = document.querySelector('.courses5');
-// let courses6 = document.querySelector('.courses6');
 
 //Courses Add
 
@@ -127,7 +164,7 @@ function mainLoader(arr, appendto) {
 function scrollX(courseX, f, b) {
     let n = courseX.length;//for now hard coded value
 
-    f.addEventListener('click', () => {
+    f?.addEventListener('click', () => {
         marleft = parseFloat(courseX.style.marginLeft);
         if (marleft > -1700)
             courseX.style.marginLeft = `${marleft - 260}px`;
@@ -137,7 +174,7 @@ function scrollX(courseX, f, b) {
 
 
     });
-    b.addEventListener('click', () => {
+    b?.addEventListener('click', () => {
         marleft = parseFloat(courseX.style.marginLeft);
         // console.log(marleft);
         if (marleft < -100)
@@ -146,5 +183,6 @@ function scrollX(courseX, f, b) {
             courseX.style.marginLeft = `0px`;
     });
 }
+
 
 
