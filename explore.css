@@ -394,9 +394,7 @@ body {
   margin-bottom: 30px;
 }
 .footBar {
-  margin-top: 100px;
   max-width: 1200px;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -404,7 +402,8 @@ body {
   font-weight: bold;
   font-size: 12.5px;
   color: #666;
-  margin-left: 10px;
+  margin: auto;
+  margin-top: 100px;
 }
 .footBar img {
   filter: grayscale(100%);

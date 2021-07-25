@@ -37,9 +37,14 @@
             </p>
           </div>
           <div>
-            <input type="text" placeholder="Email or Phone" /> <br /><br />
-            <input type="password" placeholder="Password" /><br /><br />
-            <a id="signIn" href="./checkout.html">Sign in</a>
+            <input id="name_" type="text" placeholder="Email or Phone" />
+            <br /><br />
+            <input
+              id="password"
+              type="password"
+              placeholder="Password"
+            /><br /><br />
+            <a id="signIn" onclick="login()">Sign in</a>
           </div>
           <div>
             <div class="form-a">
@@ -73,4 +78,16 @@
       </div>
     </div>
   </body>
+  <script>
+    // let name = document.getElementById("signIn")
+    function login() {
+      let name = document.getElementById("name_").value
+      let password = document.getElementById("password").value
+      let data = JSON.parse(localStorage.getItem("logindata"))
+      if (data.name == name && data.password == password) {
+        console.log(data)
+        window.location.href = "checkout.html"
+      } else alert("Please Enter Right Details")
+    }
+  </script>
 </html>
