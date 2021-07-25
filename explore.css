@@ -33,7 +33,7 @@ body {
   align-items: center;
   font-weight: 600;
   letter-spacing: 0.2rem;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 .logoImg {
   width: 28px;
@@ -225,6 +225,19 @@ body {
   .hero__content {
     width: 100%;
   }
+  #blue-module {
+    background-image: none;
+  }
+  .blue-button-style {
+    /* display: block; */
+    width: 150px;
+    font-size: 16px;
+  }
+  .circle-module-button {
+    /* display: block; */
+    width: 150px;
+    font-size: 16px;
+  }
 }
 @media (max-width: 530px) {
   .heroImg {
@@ -233,6 +246,13 @@ body {
   }
   .tab button {
     font-size: 15px !important;
+  }
+  .gif-img {
+    width: 150px;
+    height: 150px;
+  }
+  .gif-h1 {
+    font-size: 30px;
   }
 }
 
@@ -332,9 +352,6 @@ body {
 .courseDuration {
   float: right;
   margin-top: -27px;
-  /* position: absolute;
-  top: 51%;
-  left: 78%; */
   background-color: rgba(0, 0, 0, 0.596);
   color: #fff;
 }
@@ -347,7 +364,7 @@ body {
   text-decoration: underline;
 }
 /*
-Media Quearies
+
 
 */
 
@@ -370,31 +387,28 @@ Media Quearies
 */
 /* to be removed */
 .popularTopics {
-  /* background: url("/Capture.PNG"); */
-  height: 80vh;
-  background-position: 45% 50%;
-  background-size: 110% 100%;
-  opacity: 1;
+  margin: 80px auto;
 }
 .proveYourSkills {
-  background: url("/Capture2.PNG");
-  height: 80vh;
-  /* background-position: 45% 50%; */
-  background-size: 110% 100%;
-  opacity: 1;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
-
-.driveBusiness {
-  background: url("/Capture6.PNG");
-  height: 90vh;
-  /* background-position: 50% 50%; */
-  background-size: 100% 100%;
-  opacity: 1;
+.footBar {
+  margin-top: 100px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12.5px;
+  color: #666;
+  margin-left: 10px;
 }
-.footer {
-  background: url("/footer.PNG");
-  height: 90vh;
-  /* background-position: 50% 50%; */
-  background-size: 100% 100%;
-  opacity: 1;
+.footBar img {
+  filter: grayscale(100%);
+}
+.footBar div {
+  margin-right: 5px;
 }
