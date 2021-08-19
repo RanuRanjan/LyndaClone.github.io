@@ -35,7 +35,7 @@ one thing to make i t perfect. Ranu always comes up with i deas l ike can we do 
 that way. Ankit was silent and very dedicated. He did work very efficiently and also merged
 our project.
 
-#Tech Stacks Used:
+# Tech Stacks Used:
 ![image](https://user-images.githubusercontent.com/53153822/130080498-1434ceba-27f4-4587-96ce-b9d9a4a0d095.png)
 
 #HomePage:
