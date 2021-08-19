@@ -50,21 +50,24 @@ our project.
 
 # Team Members and Contributors
 Ranu Ranjan
-Github : RanuRanjan
-Email :  ranuranjan25@gmail.com 
-Linkedin :https://www.linkedin.com/in/ranuranjan25/
+* Github : RanuRanjan
+* Email :  ranuranjan25@gmail.com 
+* Linkedin :https://www.linkedin.com/in/ranuranjan25/
+
 Ankit Kumar
-Github : ankitkumar3443
-Email : ankitkumar3443@gmail.com
-Linkedin : https://www.linkedin.com/in/ankit-kumar-92113b201/
+* Github : ankitkumar3443
+* Email : ankitkumar3443@gmail.com
+* Linkedin : https://www.linkedin.com/in/ankit-kumar-92113b201/
+
 Pranali Malkar
-Github : Pranali-5
-Email :  malkarpg@gmail.com
-Linkedin :  https://www.linkedin.com/in/pranali-malkar-34243916a
+* Github : Pranali-5
+* Email :  malkarpg@gmail.com
+* Linkedin :  https://www.linkedin.com/in/pranali-malkar-34243916a
+
 Mahipal Singh 
-Github : mahi98jat
-Email : mahipal_fw10_207@masai.school
-Linkedin :https://www.linkedin.com/in/mahipal-singh-haritwal-114989194
+* Github : mahi98jat
+* Email : mahipal_fw10_207@masai.school
+* Linkedin :https://www.linkedin.com/in/mahipal-singh-haritwal-114989194
 
 
 
