@@ -38,14 +38,17 @@ our project.
 # Tech Stacks Used:
 ![image](https://user-images.githubusercontent.com/53153822/130080498-1434ceba-27f4-4587-96ce-b9d9a4a0d095.png)
 
-# HomePage:
+
+# Snaps of Our Website:
+
+* HomePage:
 ![image](https://user-images.githubusercontent.com/53153822/130081521-bce719ff-5406-4638-817e-2f64113bac85.png)
 
 
-# All Courses:
+* All Courses:
 ![image](https://user-images.githubusercontent.com/53153822/130081241-cce4746f-9396-49f9-8c08-d92c63deb0f4.png)
 
-# Select Plan:
+* Select Plan:
 ![image](https://user-images.githubusercontent.com/53153822/130081002-05bf27a9-e099-4a4d-88b3-3a209e6e29b0.png)
 
 # Team Members and Contributors
