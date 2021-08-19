@@ -35,4 +35,4 @@ one thing to make i t perfect. Ranu always comes up with i deas l ike can we do 
 that way. Ankit was silent and very dedicated. He did work very efficiently and also merged
 our project.
 
-Website (https://ranuranjan.github.io/LyndaClone.github.io/)
+
