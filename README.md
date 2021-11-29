@@ -43,7 +43,8 @@ our project.
 
 * HomePage:
  
-* ![image](https://user-images.githubusercontent.com/53153822/130081521-bce719ff-5406-4638-817e-2f64113bac85.png)
+* ![Screenshot_5](https://user-images.githubusercontent.com/53153822/143931821-e4a554d2-891b-4a92-a962-678d12a762d7.png)
+
 
 
 * All Courses:
